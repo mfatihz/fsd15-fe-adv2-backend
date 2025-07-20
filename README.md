@@ -1,4 +1,4 @@
-Aplikasi ini merupakan pelengkap untuk [Chill App Adv 1](https://github.com/mfatihz/fsd15-fe-adv1-frontend)
+Aplikasi ini merupakan pelengkap untuk [Chill App Adv 2](https://github.com/mfatihz/fsd15-fe-adv2-frontend)
 
 setting .env:  
   ```
