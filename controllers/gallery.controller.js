@@ -1,6 +1,7 @@
 const { getGalleriesByPage, getMoviesByIds } = require('../config/db');
 
 exports.getGalleriesByPage = (req, res) => {
+    console.log('getGalleriesByPage')
     try {
         const { page, genreId } = req.params;
         
@@ -13,7 +14,7 @@ exports.getGalleriesByPage = (req, res) => {
         // Dapatkan galleries berdasarkan page
         const pageGalleries = getGalleriesByPage(page);
         if (!pageGalleries || !Array.isArray(pageGalleries)) {
-            return res.status(500).json({ 
+            return res.status(500).json({
                 error: 'Failed to retrieve galleries data'
             });
         }

@@ -311,6 +311,38 @@ const episodesDB = [
     },
 
     {
+        "id": 0,
+        "parent": 4,
+        "episode": 1,
+        "title": "Bat",
+        "yearRelease": 2023,
+        "duration": "0.30",
+        "images": {
+            "hero": "",
+            "portrait": "",
+            "landscape": "",
+            "thumbnail": "/images/poster-thumbnail/ted-1.svg",
+        },
+        "summary": `[short] Lorem ipsum dolor sit amet consectetur adipiscing elit maecenas donec vivamus aptent proin, erat odio risus mi leo penatibus sed aliquet nibh dis.`
+    },
+    {
+        "id": 1,
+        "parent": 4,
+        "episode": 2,
+        "title": "Man",
+        "yearRelease": 2023,
+        "duration": "0.31",
+        "images": {
+            "hero": "",
+            "portrait": "",
+            "landscape": "",
+            "thumbnail": "/images/poster-thumbnail/ted-2.svg",
+        },
+        "summary": `[short] Lorem ipsum dolor sit amet consectetur adipiscing elit maecenas donec vivamus aptent proin, erat odio risus mi leo penatibus sed aliquet nibh dis.`
+    },
+
+
+    {
         "id": 20,
         "parent": 7,
         "episode": 1,

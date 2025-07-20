@@ -1,6 +1,7 @@
 const { database, getMovieById } = require('../config/db');
 
 exports.getHeroByPage = (req, res) => {
+    console.log('getHeroByPage')
     try {    
         const { page } = req.params;
         if (!page) {

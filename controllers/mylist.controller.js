@@ -19,6 +19,7 @@ class MyListController {
 
   // CRUD Operations
   getMyListIds = async (req, res) => {
+    console.log('getMyListIds')
     try {
       const { userId } = req.params;
       const allLists = this._getMyListIds();
@@ -29,6 +30,7 @@ class MyListController {
   }
 
   getMyListGalleries = async (req, res) => {
+    //console.log('getMyListGalleries')
     try {
       const { userId } = req.params;
       const allLists = this._getMyListIds();
@@ -47,6 +49,7 @@ class MyListController {
   }
 
   toggleMovie = (req, res) => {
+    console.log('toggleMovie')
     try {
       const { userId } = req.params;
       const { movieId } = req.body;
@@ -74,6 +77,7 @@ class MyListController {
   }
 
   hasMovie = (req, res) => {
+    console.log('hasMovie')
     try {
       const { userId, movieId } = req.params;
       const allLists = this._getMyListIds();
@@ -86,6 +90,7 @@ class MyListController {
   }
 
   clearMyList = (req, res) => {
+    console.log('clearMyList')
     try {
       const { userId } = req.params;
       const allLists = this._getMyListIds();
