@@ -1,7 +1,6 @@
 const { getGalleriesByPage, getMoviesByIds } = require('../config/db');
 
 exports.getGalleriesByPage = (req, res) => {
-    console.log('getGalleriesByPage')
     try {
         const { page, genreId } = req.params;
         

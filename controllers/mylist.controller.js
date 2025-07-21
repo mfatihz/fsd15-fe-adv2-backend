@@ -19,18 +19,21 @@ class MyListController {
 
   // CRUD Operations
   getMyListIds = async (req, res) => {
-    console.log('getMyListIds')
     try {
       const { userId } = req.params;
       const allLists = this._getMyListIds();
-      res.status(200).json({ success: true, ids: allLists[userId] || [] });
+      if (userId) {
+        res.status(200).json({ success: true, ids: allLists[userId] || [] });
+      } else {
+        res.status(400).json({ success: false, ids: [] });
+      }
+      
     } catch (error) {
       res.status(500).json({ success: false, message: error.message });
     }
   }
 
   getMyListGalleries = async (req, res) => {
-    //console.log('getMyListGalleries')
     try {
       const { userId } = req.params;
       const allLists = this._getMyListIds();
@@ -49,11 +52,13 @@ class MyListController {
   }
 
   toggleMovie = (req, res) => {
-    console.log('toggleMovie')
     try {
       const { userId } = req.params;
       const { movieId } = req.body;
-
+      
+      if (!userId || userId === 'null') {
+        return res.status(400).json({ success: false, message: 'Login is required' });
+      }
       if (!movieId && movieId!==0) {
         return res.status(400).json({ success: false, message: 'movieId is required' });
       }
@@ -77,7 +82,6 @@ class MyListController {
   }
 
   hasMovie = (req, res) => {
-    console.log('hasMovie')
     try {
       const { userId, movieId } = req.params;
       const allLists = this._getMyListIds();
@@ -90,15 +94,14 @@ class MyListController {
   }
 
   clearMyList = (req, res) => {
-    console.log('clearMyList')
     try {
       const { userId } = req.params;
       const allLists = this._getMyListIds();
       delete allLists[userId];
       this._saveMyListIds(allLists);
-      res.status(200).json({ ids: [] });
+      res.status(200).json({ success: true, ids: [] });
     } catch (error) {
-      res.status(500).json({ message: error.message });
+      res.status(500).json({ success: false, message: error.message });
     }
   }
 }

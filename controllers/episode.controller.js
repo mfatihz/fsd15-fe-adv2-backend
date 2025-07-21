@@ -1,7 +1,6 @@
 const { getEpisodesByParentId } = require('../config/db');
 
 exports.getEpisodesGallery = (req, res) => {
-    console.log('getEpisodesGallery')
     try {
         const { id } = req.params;    
         if (!id) {
