@@ -1,7 +1,6 @@
 const moviesDB = [
     {
         "id": 0,
-        "parent": null,
         "title": "My Hero Academia",
         "type": "series",
         "yearRelease": 2023,
@@ -28,7 +27,6 @@ const moviesDB = [
     },
     {
         "id": 1,
-        "parent": null,
         "title": "Alice in Borderland",
         "type": "series",
         "yearRelease": 2023,
@@ -51,7 +49,6 @@ const moviesDB = [
     },
     {
         "id": 2,
-        "parent": null,
         "title": "All of Us are Dead",
         "type": "series",
         "yearRelease": 2023,
@@ -73,7 +70,6 @@ const moviesDB = [
     },
     {
         "id": 3,
-        "parent": null,
         "title": "Avatar 3",
         "type": "movies",
         "yearRelease": 2023,
@@ -94,7 +90,6 @@ const moviesDB = [
     },
     {
         "id": 4,
-        "parent": null,
         "title": "Batman",
         "type": "series",
         "yearRelease": 2023,
@@ -115,7 +110,6 @@ const moviesDB = [
     },
     {
         "id": 5,
-        "parent": null,
         "title": "Baymax",
         "type": "movies",
         "yearRelease": 2023,
@@ -142,7 +136,6 @@ const moviesDB = [
     },
     {
         "id": 6,
-        "parent": null,
         "title": "Big Hero 6",
         "type": "movies",
         "yearRelease": 2023,
@@ -165,7 +158,6 @@ const moviesDB = [
     },
     {
         "id": 7,
-        "parent": null,
         "title": "Blue Lock",
         "type": "series",
         "yearRelease": 2023,
@@ -187,7 +179,6 @@ const moviesDB = [
     },
     {
         "id": 8,
-        "parent": null,
         "title": "Dilan",
         "type": "movies",
         "yearRelease": 2023,
@@ -208,7 +199,6 @@ const moviesDB = [
     },
     {
         "id": 9,
-        "parent": null,
         "title": "Don't Look Up",
         "type": "movies",
         "yearRelease": 2023,
@@ -229,7 +219,6 @@ const moviesDB = [
     },
     {
         "id": 10,
-        "parent": null,
         "title": "Duty after School",
         "type": "series",
         "yearRelease": 2023,
@@ -250,7 +239,6 @@ const moviesDB = [
     },
     {
         "id": 11,
-        "parent": null,
         "title": "Fast X",
         "type": "movies",
         "yearRelease": 2023,
@@ -277,7 +265,6 @@ const moviesDB = [
     },
     {
         "id": 12,
-        "parent": null,
         "title": "Guardians of the Galaxy",
         "type": "movies",
         "yearRelease": 2023,
@@ -300,7 +287,6 @@ const moviesDB = [
     },
     {
         "id": 13,
-        "parent": null,
         "title": "Happiness",
         "type": "movies",
         "yearRelease": 2023,
@@ -321,7 +307,6 @@ const moviesDB = [
     },
     {
         "id": 14,
-        "parent": null,
         "title": "Jurassic World",
         "type": "movies",
         "yearRelease": 2023,
@@ -342,7 +327,6 @@ const moviesDB = [
     },
     {
         "id": 15,
-        "parent": null,
         "title": "Megan",
         "type": "movies",
         "yearRelease": 2023,
@@ -363,7 +347,6 @@ const moviesDB = [
     },
     {
         "id": 16,
-        "parent": null,
         "title": "The Little Mermaid",
         "type": "movies",
         "yearRelease": 2023,
@@ -390,7 +373,6 @@ const moviesDB = [
     },
     {
         "id": 17,
-        "parent": null,
         "title": "Missing",
         "type": "movies",
         "yearRelease": 2023,
@@ -413,7 +395,6 @@ const moviesDB = [
     },
     {
         "id": 18,
-        "parent": null,
         "title": "A Man Called Otto",
         "type": "movies",
         "yearRelease": 2023,
@@ -435,7 +416,6 @@ const moviesDB = [
     },
     {
         "id": 19,
-        "parent": null,
         "title": "Quantumania",
         "type": "movies",
         "yearRelease": 2023,
@@ -456,7 +436,6 @@ const moviesDB = [
     },
     {
         "id": 20,
-        "parent": null,
         "title": "Rio",
         "type": "movies",
         "yearRelease": 2023,
@@ -477,7 +456,6 @@ const moviesDB = [
     },
     {
         "id": 21,
-        "parent": null,
         "title": "Shazam",
         "type": "movies",
         "yearRelease": 2023,
@@ -504,7 +482,6 @@ const moviesDB = [
     },
     {
         "id": 22,
-        "parent": null,
         "title": "Sonic 2",
         "type": "movies",
         "yearRelease": 2023,
@@ -527,7 +504,6 @@ const moviesDB = [
     },
     {
         "id": 23,
-        "parent": null,
         "title": "Spiderman",
         "type": "series",
         "yearRelease": 2023,
@@ -549,7 +525,6 @@ const moviesDB = [
     },
     {
         "id": 24,
-        "parent": null,
         "title": "The Little Stuart",
         "type": "series",
         "yearRelease": 2023,
@@ -570,7 +545,6 @@ const moviesDB = [
     },
     {
         "id": 25,
-        "parent": null,
         "title": "Suzume",
         "type": "movies",
         "yearRelease": 2023,
@@ -591,7 +565,6 @@ const moviesDB = [
     },
     {
         "id": 26,
-        "parent": null,
         "title": "The Tomorrow War",
         "type": "movies",
         "yearRelease": 2023,
